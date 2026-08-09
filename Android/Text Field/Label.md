@@ -43,4 +43,4 @@ The decorator can contain any required layout: labels, borders, prefixes, suffix
 
 **Keep these elements as real UI content and preserve the text field's native semantics. Do not try to reproduce them with `contentDescription` anywhere in the text field hierarchy.**
 
-**Note:** This guidance does not prevent leading or trailing icons from having their own accessibility information when applicable. Adding an accessible name to an icon is not the same as replacing the semantics of a complex control such as a text field.
+**Note:** This guidance does not prevent leading or trailing icons from having their own accessibility information when applicable. Adding an accessible name to an icon is not the same as affecting the semantics of a complex control such as a text field.
