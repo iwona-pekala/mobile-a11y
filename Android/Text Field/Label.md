@@ -68,7 +68,7 @@ Column(
 }
 ```
 
-```
+```kotlin
 // Bad: merging the text field with surrounding content
 Column(
     modifier = Modifier.semantics(mergeDescendants = true) {}
