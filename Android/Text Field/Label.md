@@ -12,7 +12,7 @@ Do not use `contentDescription` to recreate a text field's label, value, support
 
 A `contentDescription` applied directly to the text field can interfere with TalkBack's native handling of editable text, including navigation and editing.
 
-Applying it to an outer container is not an option either, as TalkBack ignores it.
+Applying it to an outer container is not a reliable alternative: TalkBack may ignore it or expose the container separately instead of using it to label the text field.
 
 Similarly, avoid manually combining the field and its surrounding content with `mergeDescendants`. This option won't work either.
 
