@@ -16,7 +16,7 @@ Applying it to an outer container is not a reliable alternative: TalkBack may ig
 
 Similarly, avoid manually combining the field and its surrounding content with `mergeDescendants`. This option won't work either.
 
-## Put related content in the decorator ✓
+## ✓ Put related content in the decorator 
 
 `BasicTextField` allows custom content to be placed around `innerTextField` using its `decorator`.
 
@@ -41,7 +41,7 @@ The decorator can contain any required layout: labels, borders, prefixes, suffix
 Do not try to include them in the text field's contentDescription.
 
 **Note:** contentDescription may interfere with text editing operations when applied to the text field, and does not name the field when applied to its parent. It can still be used on child elements, such as icons, when applicable.
-## Anti-patterns: Do NOT do this ✗
+## ✗ Anti-patterns: Do NOT do this 
 ```kotlin
 // Bad: contentDescription on the text field
 BasicTextField(
