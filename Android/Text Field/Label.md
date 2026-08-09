@@ -41,4 +41,4 @@ The decorator can contain any required layout: labels, borders, prefixes, suffix
 
 Keep these elements as real UI content and preserve the text field's native semantics. Do not try to reproduce them with `contentDescription` **anywhere** in the text field hierarchy.
 
-**Note:** This guidance does not prevent leading or trailing icons from having their own accessibility information when applicable. Adding an accessible name to an icon does not alter the relationship between a text field's name and value.
+**Note:** contentDescription may interfere with text editing operations when applied to the text field, and does not name the field when applied to its parent. It can still be used on child elements, such as icons, when applicable.
