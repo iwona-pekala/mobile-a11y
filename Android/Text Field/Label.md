@@ -41,7 +41,7 @@ The decorator can contain any required layout: labels, borders, prefixes, suffix
 Do not try to include them in the text field's contentDescription.
 
 **Note:** contentDescription may interfere with text editing operations when applied to the text field, and does not name the field when applied to its parent. It can still be used on child elements, such as icons, when applicable.
-## Anti-patterns: Do not do this
+## Anti-patterns: Do NOT do this
 ```kotlin
 // Bad: contentDescription on the text field
 BasicTextField(
