@@ -16,8 +16,6 @@ Applying it to an outer container is not an option either, as TalkBack ignores i
 
 Similarly, avoid manually combining the field and its surrounding content with `mergeDescendants`. This option won't work either.
 
-**Keep the editable field's native semantics intact.**
-
 ## Put related content in the decorator
 
 `BasicTextField` allows custom content to be placed around `innerTextField` using its `decorator`.
@@ -43,4 +41,4 @@ The decorator can contain any required layout: labels, borders, prefixes, suffix
 
 Keep these elements as real UI content and preserve the text field's native semantics. Do not try to reproduce them with `contentDescription` **anywhere** in the text field hierarchy.
 
-**Note:** This guidance does not prevent leading or trailing icons from having their own accessibility information when applicable. Adding an accessible name to an icon is not the same as affecting the semantics of a complex control such as a text field.
+**Note:** This guidance does not prevent leading or trailing icons from having their own accessibility information when applicable. Adding an accessible name to an icon does not alter the relationship between a text field's name and value.
