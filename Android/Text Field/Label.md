@@ -1,4 +1,4 @@
-# Programmatic Names for Text Fields
+# Programmatic Name for Text Field
 
 Material 3 [`TextField`](https://developer.android.com/reference/kotlin/androidx/compose/material3/TextField.composable) should be the first choice if possible.
 
