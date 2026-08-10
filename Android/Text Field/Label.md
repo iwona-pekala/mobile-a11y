@@ -1,5 +1,5 @@
 # Programmatic Name for BasicTextField
-Material 3 [`TextField`](https://developer.android.com/reference/kotlin/androidx/compose/material3/TextField.composable) should be the first choice if possible.
+Use Material 3 [`TextField`](https://developer.android.com/reference/kotlin/androidx/compose/material3/TextField.composable) if possible.
 
 Its `label` is not only visual. It is included in the field's accessibility semantics and effectively serves as the field's accessible name for TalkBack. Other content provided through the component's slots, such as supporting text or icons, also contribute to the resulting accessibility information.
 
