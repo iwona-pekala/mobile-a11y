@@ -1,4 +1,4 @@
-# Programmatic names for text fields in Jetpack Compose
+# Programmatic Names for Text Fields
 
 Material 3 [`TextField`](https://developer.android.com/reference/kotlin/androidx/compose/material3/TextField.composable) should be the first choice if possible.
 
